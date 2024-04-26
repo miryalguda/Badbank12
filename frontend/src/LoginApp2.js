@@ -27,8 +27,8 @@ function LoginApp() {
   let email = sessionStorage.getItem("email");
   return (
     <>
-      {<h1>Hello, {email}. Welcome!!</h1>}
-
+     
+      {<h3 style= {{ textAlign: "right" }}>Hello, {email}. Welcome!!</h3>}
       <BrowserRouter>
         <UserContext.Provider
           value={{
